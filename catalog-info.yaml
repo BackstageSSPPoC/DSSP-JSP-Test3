@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: DSSP-JSP-Test3
+  description: Service DSSP-JSP-Test3
+
+  annotations:
+    github.com/project-slug: BackstageSSPPoC/DSSP-JSP-Test3
+    backstage.io/techdocs-ref: dir:.
+    jenkins.io/job-full-name: Backstage_SSP_PoC/DSSP-JSP-Test3/main
+    argocd/app-name: dssp-jsp-test3
+    backstage.io/kubernetes-id: DSSP-JSP-Test3
+    backstage.io/kubernetes-namespace: default
+    sonarqube.org/project-key: dssp-jsp-test3
+
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
