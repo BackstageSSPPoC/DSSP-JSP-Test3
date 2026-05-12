@@ -43,7 +43,7 @@ pipeline {
 
         stage('Build & Test') {
             steps {
-                sh 'aimvn clean verify -B'
+                sh 'mvn clean verify -B'
                 // -B = batch mode (no interactive prompts, clean Jenkins output)
             }
         }
