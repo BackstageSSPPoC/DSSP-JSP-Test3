@@ -20,4 +20,4 @@ spec:
           image: ${DOCKER_IMAGE}
           imagePullPolicy: Always
           ports:
-            - containerPort: ${APP_POR}
+            - containerPort: ${APP_PORTS}
